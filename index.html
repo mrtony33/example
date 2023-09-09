@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <table border="1px">
+      <thead>
+        <tr>
+          <th colspan="2">Pizza shop 2.0</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <label for="name"></label>
+            <input id="name " type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>Pizza Topping</td>
+          <td>
+            <input type="radio" name="pizzatopping" id="sup" />
+            <label for="pizzatopping">Supereme</label><br />
+            <input type="radio" name="pizzatopping" id="veg" />
+            <label for="pizzatopping">Vegeterian</label><br />
+            <input type="radio" name="pizzatopping" id="haw" />
+            <label for="pizzatopping">Hawaiin</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Pizza Sauce</td>
+          <td>
+            <select name="" id="">
+              <option value="tomoto">Tomoto</option>
+              <option value="sauce1">Sauce1</option>
+              <option value="Sauce2">sauce2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Optional Extras</td>
+          <td>
+            <input type="checkbox" name="optionalextras" id="ec" />
+            <label for="optionalextras">Extra Cheese</label><br />
+            <input type="checkbox" name="optionalextras" id="gfb" />
+            <label for="optionalextras">Gluten Free Base</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Delivery Instruction :<br />
+            <textarea
+              name="desc"
+              id=""
+              cols="20"
+              rows="4"
+              placeholder="Type Here"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="order" name="button" id="button" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
